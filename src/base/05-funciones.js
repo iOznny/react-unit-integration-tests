@@ -3,11 +3,11 @@
 //     return `Hola, ${ nombre }`;
 // }
 
-const saludar2 = (nombre) => {
-    return `Hola, ${ nombre }`;
+const saludar2 = (name) => {
+    return `Hola, ${ name }`;
 }
 
-const saludar3 = (nombre) => `Hola, ${ nombre }`;
+const saludar3 = (name) => `Hola, ${ name }`;
 const saludar4 = () => `Hola Mundo`;
 
 // console.log( saludar('Goku') )
@@ -24,10 +24,10 @@ const user = getUser();
 console.log(user);
 
 // Tarea
-const getUsuarioActivo = (nombre) =>({
+const getUsuarioActivo = (name) => ({
     uid: 'ABC567',
-    username: nombre
-})
+    username: name
+});
 
 const usuarioActivo = getUsuarioActivo('Fernando');
 console.log(usuarioActivo);
