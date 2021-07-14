@@ -15,12 +15,11 @@ React - Sección 5: Pruebas Unitarias y de Integración
     - Son los resultados esperados.
     - Que algo cambie, algo incremente o bien que nada suceda.
 
-* Primeras pruebas
+* Pruebas más comunes
     - Jest
     - Expect
     - toBe
     - Enzyme
-
 
 - Pruebas Unitarias: Enfocadas en pequeñas funcionalidades de la aplicación.
 - Pruebas Integración: Enfocadas en como reaccionan varias piezas en conjunto.
