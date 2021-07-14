@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 // Functional Componente
 const CounterApp = ({ value = 0 }) => {
-
     const [ counter, setCounter ] = useState(value);
 
     // handAdd
