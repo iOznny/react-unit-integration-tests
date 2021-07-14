@@ -1,4 +1,3 @@
-
 // Desestructuración
 // Asignación Desestructurante
 const persona = {
@@ -14,8 +13,6 @@ const persona = {
 // console.log( clave );
 
 const usContext = ({ clave, nombre, edad, rango = 'Capitán' }) => {
-
-
     // console.log( nombre, edad, rango );
     
     return {
@@ -26,12 +23,9 @@ const usContext = ({ clave, nombre, edad, rango = 'Capitán' }) => {
             lng: -12.3232
         }
     }
-
 }
 
-const { nombreClave, anios, latlng: { lat, lng } } = usContext( persona );
+const { nombreClave, anios, latlng: { lat, lng } } = usContext(persona);
 
 console.log(nombreClave, anios);
-console.log( lat, lng );
-
-
+console.log(lat, lng);
