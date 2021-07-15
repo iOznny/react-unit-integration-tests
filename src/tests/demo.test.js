@@ -12,5 +12,3 @@ describe('Pruebas en Demo Test JS', () => {
         }
     });
 });
-
-
