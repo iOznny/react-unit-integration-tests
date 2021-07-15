@@ -5,7 +5,6 @@ describe('Prueba Template String JS', () => {
     test('Prueba Method getSaludo', () => {
         const name = 'Demo';
         const gretting = getSaludo(name);
-
         expect(gretting).toBe('Hola ' + name);        
     });
 

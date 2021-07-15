@@ -1,5 +1,4 @@
 describe('Pruebas en Demo Test JS', () => {
-    
     test('should ', () => {
         // Inicialización.
         const message = 'Hola Mundo';
@@ -12,7 +11,6 @@ describe('Pruebas en Demo Test JS', () => {
             expect(message).toBe(messagetwo);
         }
     });
-
 });
 
 
