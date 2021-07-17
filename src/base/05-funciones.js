@@ -10,7 +10,6 @@ const saludar2 = (name) => {
 const saludar3 = (name) => `Hola, ${ name }`;
 const saludar4 = () => `Hola Mundo`;
 
-
 export const getUser = () => ({
     uid: 'ABC123',
     username: 'El_Papi1502'

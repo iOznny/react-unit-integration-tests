@@ -27,7 +27,7 @@ const getHeroeByIdAsync = (id) => {
             } else {
                 reject('No se pudo encontrar el héroe');
             }
-        }, 2000)
+        }, 2000);
     });
 }
 
