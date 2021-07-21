@@ -26,3 +26,4 @@ const usContext = ({ key, name, age, range = 'Capitán' }) => {
 const { nameKey, years, latlng: { lat, lng } } = usContext(person);
 console.log(nameKey, years);
 console.log(lat, lng);
+
