@@ -13,3 +13,4 @@ export const getHeroeByIdAsync = (id) => {
         }, 1500);
     });
 }
+
