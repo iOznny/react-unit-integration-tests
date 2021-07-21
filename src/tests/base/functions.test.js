@@ -27,5 +27,4 @@ describe('Prueba Functions JS', () => {
 
         expect(getUser).toEqual(user);
     });
-    
 });
