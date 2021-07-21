@@ -1,8 +1,4 @@
 // Funciones en JS
-// const saludar = function( nombre ) {
-//     return `Hola, ${ nombre }`;
-// }
-
 const saludar2 = (name) => {
     return `Hola, ${ name }`;
 }
