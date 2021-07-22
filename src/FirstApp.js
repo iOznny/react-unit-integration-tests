@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 // Functional Components
 const FisrtApp = ({ saludo, subtitle }) => {
-    const grettings = 'Hola Mundo const';
+    const grettings = 'Hola, soy Goku';
     const objectPerson = {
         name: 'Demo',
         age: 123
