@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 // Functional Components
-const FisrtApp = ({ saludo, subtitle }) => {
+const FirstApp = ({ saludo, subtitle }) => {
     const grettings = 'Hola, soy Goku';
     const objectPerson = {
         name: 'Demo',
@@ -22,13 +22,13 @@ const FisrtApp = ({ saludo, subtitle }) => {
 }
 
 // Validaciones de los Props.
-FisrtApp.propTypes = {
+FirstApp.propTypes = {
     saludo: PropTypes.string.isRequired
 }
 
 // Valores por defecto a los Props.
-FisrtApp.defaultProps = {
+FirstApp.defaultProps = {
     subtitle: 'Subtitle'
 }
 
-export default FisrtApp;
+export default FirstApp;

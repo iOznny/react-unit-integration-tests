@@ -5,6 +5,6 @@ describe('Async & Await', () => {
         const url = await getImagen();
         expect(url.includes('https://')).toBe(true);
 
-        console.log(url);
+        //console.log(url);
     });    
 });
