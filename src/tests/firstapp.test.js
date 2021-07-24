@@ -22,4 +22,13 @@ describe('First App Test', () => {
         // toMatchSnapshot: Fotografia de como se encuentra el componente renderizado.
         expect(wrapper).toMatchSnapshot();
     });
+
+    test('Show subtitle sent by props', () => {
+        const gretting = 'Hola, soy Goku';
+        const subtitle = 'Hola, soy subtitle';
+        const wrapper = shallow(<FirstApp saludo={ gretting } subtitle={ subtitle } />);
+
+        const textParr = wrapper.find('p').text();        
+        expect(textParr).toBe(subtitle);
+    });
 });
