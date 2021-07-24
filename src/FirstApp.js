@@ -16,7 +16,7 @@ const FirstApp = ({ saludo, subtitle }) => {
             <h1>{ grettings }</h1>
             <pre>{ JSON.stringify(objectPerson, null, 3) }</pre>
             <h1>Hola Mundo</h1>
-            <h1>{ subtitle }</h1>
+            <p>{ subtitle }</p>
         </Fragment>
     );
 }
